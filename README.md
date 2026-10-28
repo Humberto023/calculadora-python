@@ -19,8 +19,8 @@ pytest -v
 ## Pipeline
 
 A cada push ou pull request, o GitHub Actions (`.github/workflows/ci.yml`):
+
 1. Instala o Python e as dependências
 2. Verifica o estilo do código com `flake8`
 3. Roda os testes com `pytest`
-.
-
+   ..
